@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: normal;
+}
+
+header {
+  position: relative;
+  display: flex;
+  padding: 3.125rem 0;
+}
+
+img {
+  padding-left: 3.125rem;
+}
+button {
+  border: none;
+  /* float: right; */
+}
+
+.section-container__button {
+  border-radius: 31.5px;
+  background: #dab6fc;
+  color: white;
+  /* padding: top right bottom left */
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: 1.05px;
+
+  font-style: bold;
+}
+
+nav {
+  display: inline;
+}
+nav,
+ul,
+li {
+  display: inline-block;
+  border: 1px solid white;
+  height: 3.125rem;
+}
+
+li {
+  padding-top: 0.8rem;
+  width: 12rem;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.home {
+  color: #dab6fc;
+}
+/* _________________________ */
+
+.overlay {
+  position: absolute;
+  top: 12rem;
+  height: 100%;
+  width: 70%;
+  z-index: 1;
+}
+
+
+
+.overlay p {
+  width: 80%;
+}
+
+.main-section {
+  padding: 3.125rem 3rem 8.45rem 3.125rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.text {
+  color: #ada7ff;
+}
+
+.left_part {
+  /* width: 50%; */
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+.buttons {
+  display: flex;
+  gap: 5rem;
+  top: 12rem;
+  padding: 5rem 0 5rem 0;
+  position: relative;
+} 
+
+.button1 {
+  width: 14.1rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3.125rem;
+  background-color: #ada7ff;
+  background-image: url("./img/Dog\ print.svg");
+  background-size: 20px 20px;
+  background-position: right 0 center;
+  background-repeat: no-repeat;
+}
+
+.text_button {
+  color: white;
+}
+
+.button2 {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid white;
+  /* display: flex; */
+  border-radius: 50px;
+  background-image: url("./img/Play\ Button.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.watch {
+  color: #ada7ff;
+  padding-top: 1.25rem;
+  padding-left: 380px;
+  position: absolute;
+  
+}
+
+.Info {
+  display: flex;
+  gap: 6.25rem;
+  padding: 12rem 0;
+}
+
+.Info h4 {
+  font-size: 40px;
+}
+
+.Info p {
+  font-size: 18px;
+}
+
+.right_part {
+  border: 1px solid white;
+  display: flex;
+}
